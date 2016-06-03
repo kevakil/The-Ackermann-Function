@@ -48,3 +48,5 @@ There is my brief summary of the ackermann function. Basically all I did was pro
 Judging by my intuition, I thought that the computer would not be able to even solve half of the inputs I gave to it after 30 minutes. However, my hypothesis could not be accurately tested since after about 1 minute and 45 seconds the program stopped and produced a segmentation fault error (an error I got from my previous wikipedia spider which was an infinite recursive call). Thus, most likely the problem is that one of the modules can't handle such large recursive calls, even when the recursion limit is set so high.
 
 Still, I got the data from after 1 minute and 45 seconds and am currently trying to find out the best way to visualize it.
+
+After looking at the data, I believe I underestimated the power of my computer. After the time alloted, the function completed all combinations of values for m<4 and n<10. However, as m increased, the real power of the algorithm would be tested.
