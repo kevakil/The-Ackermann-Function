@@ -50,3 +50,9 @@ Judging by my intuition, I thought that the computer would not be able to even s
 Still, I got the data from after 1 minute and 45 seconds and am currently trying to find out the best way to visualize it.
 
 After looking at the data, I believe I underestimated the power of my computer. After the time alloted, the function completed all combinations of values for m<4 and n<10. However, as m increased, the real power of the algorithm would be tested.
+
+#Making Memory Usage More Efficient
+
+Since this program requires a recursive protocal, I thought it might be best to implement a memoized decorator to the Ackermann function. What is memoization you ask? Well, it is an optimization technique used to speed up computer programs by storing the results of any function call in a "dictionary" of sorts, think of it like an array. This way, the program only needs to do the necessary recursive operations once for every unique input. If the program needs to do a function call for an input its seen already, it will simply return the result stored in the "dictionary", actually, better to think of this as a "cache". This way, we save a lot of time performing the same function calls as well as a lot of memory.
+
+With the use of this memoized decorator, our Ackermann Function makes about 5 calls when given the inputs (2,9), when without this decorator it would make 230 function calls.
