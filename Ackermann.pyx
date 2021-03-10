@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-import sys
 import time
-sys.setrecursionlimit(999999999)
 
 
 def memoize(func):
@@ -15,7 +13,7 @@ def memoize(func):
     return wrapper
 
 
-def count_calls(func):
+cdef count_calls(func):
     counter = 0
 
     def wrapper(*args):
@@ -27,7 +25,7 @@ def count_calls(func):
 
 @count_calls
 @memoize
-def ackermann(m, n):
+def ackermann(int m, int n):
     if m == 0:
         return n + 1
     if m > 0 and n == 0:
@@ -43,7 +41,7 @@ result.write("The Ackermann function: We know it should always end \
 data.write("m,n,ans,time(seconds),# of calls\n")
 
 for i in range(0, 3):
-    for j in range(0, 3):
+    for j in range(0, 10):
         tot_time = time.time()
         temp, counter = ackermann(i, j)
         tot_time -= time.time()
