@@ -1,31 +1,91 @@
-The Ackermann function: We know it should always end but we know it never will...
-ackermann(0, 0) = 1 and took 5.9604644775390625e-06 seconds to compute with 1 function calls.
-ackermann(0, 1) = 2 and took 2.86102294921875e-06 seconds to compute with 1 function calls.
-ackermann(0, 2) = 3 and took 1.1920928955078125e-06 seconds to compute with 1 function calls.
-ackermann(0, 3) = 4 and took 1.1920928955078125e-06 seconds to compute with 1 function calls.
-ackermann(0, 4) = 5 and took 1.1920928955078125e-06 seconds to compute with 1 function calls.
-ackermann(0, 5) = 6 and took 1.9073486328125e-06 seconds to compute with 1 function calls.
-ackermann(0, 6) = 7 and took 1.1920928955078125e-06 seconds to compute with 1 function calls.
-ackermann(0, 7) = 8 and took 1.1920928955078125e-06 seconds to compute with 1 function calls.
-ackermann(0, 8) = 9 and took 1.1920928955078125e-06 seconds to compute with 1 function calls.
-ackermann(0, 9) = 10 and took 7.152557373046875e-07 seconds to compute with 1 function calls.
-ackermann(1, 0) = 2 and took 2.384185791015625e-06 seconds to compute with 1 function calls.
-ackermann(1, 1) = 3 and took 3.5762786865234375e-06 seconds to compute with 1 function calls.
-ackermann(1, 2) = 4 and took 1.9073486328125e-06 seconds to compute with 1 function calls.
-ackermann(1, 3) = 5 and took 1.9073486328125e-06 seconds to compute with 1 function calls.
-ackermann(1, 4) = 6 and took 1.6689300537109375e-06 seconds to compute with 1 function calls.
-ackermann(1, 5) = 7 and took 2.384185791015625e-06 seconds to compute with 1 function calls.
-ackermann(1, 6) = 8 and took 1.9073486328125e-06 seconds to compute with 1 function calls.
-ackermann(1, 7) = 9 and took 1.9073486328125e-06 seconds to compute with 1 function calls.
-ackermann(1, 8) = 10 and took 1.9073486328125e-06 seconds to compute with 1 function calls.
-ackermann(1, 9) = 11 and took 3.0994415283203125e-06 seconds to compute with 2 function calls.
-ackermann(2, 0) = 3 and took 2.86102294921875e-06 seconds to compute with 1 function calls.
-ackermann(2, 1) = 5 and took 2.384185791015625e-06 seconds to compute with 1 function calls.
-ackermann(2, 2) = 7 and took 2.1457672119140625e-06 seconds to compute with 1 function calls.
-ackermann(2, 3) = 9 and took 2.1457672119140625e-06 seconds to compute with 1 function calls.
-ackermann(2, 4) = 11 and took 2.1457672119140625e-06 seconds to compute with 1 function calls.
-ackermann(2, 5) = 13 and took 7.3909759521484375e-06 seconds to compute with 5 function calls.
-ackermann(2, 6) = 15 and took 6.198883056640625e-06 seconds to compute with 5 function calls.
-ackermann(2, 7) = 17 and took 9.059906005859375e-06 seconds to compute with 5 function calls.
-ackermann(2, 8) = 19 and took 8.58306884765625e-06 seconds to compute with 5 function calls.
-ackermann(2, 9) = 21 and took 6.198883056640625e-06 seconds to compute with 5 function calls.
+The Ackermann function: We know it should always end               but we know it never will...
+ackermann(0, 0) = 1 and \
+                took -2.384185791015625e-06 seconds to compute \
+                with 1 function calls
+ackermann(0, 1) = 2 and \
+                took -9.5367431640625e-07 seconds to compute \
+                with 2 function calls
+ackermann(0, 2) = 3 and \
+                took -4.76837158203125e-07 seconds to compute \
+                with 3 function calls
+ackermann(0, 3) = 4 and \
+                took -2.384185791015625e-07 seconds to compute \
+                with 4 function calls
+ackermann(0, 4) = 5 and \
+                took -2.384185791015625e-07 seconds to compute \
+                with 5 function calls
+ackermann(0, 5) = 6 and \
+                took -2.384185791015625e-07 seconds to compute \
+                with 6 function calls
+ackermann(0, 6) = 7 and \
+                took -2.384185791015625e-07 seconds to compute \
+                with 7 function calls
+ackermann(0, 7) = 8 and \
+                took -2.384185791015625e-07 seconds to compute \
+                with 8 function calls
+ackermann(0, 8) = 9 and \
+                took -2.384185791015625e-07 seconds to compute \
+                with 9 function calls
+ackermann(0, 9) = 10 and \
+                took -2.384185791015625e-07 seconds to compute \
+                with 10 function calls
+ackermann(1, 0) = 2 and \
+                took -9.5367431640625e-07 seconds to compute \
+                with 12 function calls
+ackermann(1, 1) = 3 and \
+                took -9.5367431640625e-07 seconds to compute \
+                with 15 function calls
+ackermann(1, 2) = 4 and \
+                took -4.76837158203125e-07 seconds to compute \
+                with 18 function calls
+ackermann(1, 3) = 5 and \
+                took -7.152557373046875e-07 seconds to compute \
+                with 21 function calls
+ackermann(1, 4) = 6 and \
+                took -4.76837158203125e-07 seconds to compute \
+                with 24 function calls
+ackermann(1, 5) = 7 and \
+                took -9.5367431640625e-07 seconds to compute \
+                with 27 function calls
+ackermann(1, 6) = 8 and \
+                took -9.5367431640625e-07 seconds to compute \
+                with 30 function calls
+ackermann(1, 7) = 9 and \
+                took -4.76837158203125e-07 seconds to compute \
+                with 33 function calls
+ackermann(1, 8) = 10 and \
+                took -4.76837158203125e-07 seconds to compute \
+                with 36 function calls
+ackermann(1, 9) = 11 and \
+                took -7.152557373046875e-07 seconds to compute \
+                with 39 function calls
+ackermann(2, 0) = 3 and \
+                took -9.5367431640625e-07 seconds to compute \
+                with 41 function calls
+ackermann(2, 1) = 5 and \
+                took -7.152557373046875e-07 seconds to compute \
+                with 44 function calls
+ackermann(2, 2) = 7 and \
+                took -4.76837158203125e-07 seconds to compute \
+                with 47 function calls
+ackermann(2, 3) = 9 and \
+                took -7.152557373046875e-07 seconds to compute \
+                with 50 function calls
+ackermann(2, 4) = 11 and \
+                took -4.76837158203125e-07 seconds to compute \
+                with 53 function calls
+ackermann(2, 5) = 13 and \
+                took -1.6689300537109375e-06 seconds to compute \
+                with 60 function calls
+ackermann(2, 6) = 15 and \
+                took -6.604194641113281e-05 seconds to compute \
+                with 67 function calls
+ackermann(2, 7) = 17 and \
+                took -1.430511474609375e-06 seconds to compute \
+                with 74 function calls
+ackermann(2, 8) = 19 and \
+                took -1.9073486328125e-06 seconds to compute \
+                with 81 function calls
+ackermann(2, 9) = 21 and \
+                took -1.1920928955078125e-06 seconds to compute \
+                with 88 function calls
